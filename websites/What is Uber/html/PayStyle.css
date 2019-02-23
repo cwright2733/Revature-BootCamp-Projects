@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+    color: aquamarine;
+    background-image: url(https://armstrongmedia.s3.amazonaws.com/wp-content/uploads/2016/08/big-stack-of-money.jpg);
+    margin: 50px;
+    padding: 80px;
+}
+body{
+    background-image: url(http://s3.amazonaws.com/digitaltrends-uploads-prod/2013/08/Tesla-Model-S-burgondy2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.payinfo
+{
+    color: deeppink;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+}

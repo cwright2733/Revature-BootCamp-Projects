@@ -1,0 +1,17 @@
+body{
+background-color: darkgray;
+
+
+}
+form {
+
+    background-color: blue;
+    color: white;
+    border-color: springgreen;
+    border-radius: 10%;
+}
+fieldset{
+    border-color: springgreen;
+    border-style: dashed;
+    margin:  10px;
+}

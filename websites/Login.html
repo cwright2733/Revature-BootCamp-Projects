@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <style>
+      body {background-image: url("http://www.city-data.com/forum/members/nat-of-the-atl-766520-albums-atlanta-pic48227-atlanta1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+
+        
+
+    }
+    </style>
+
+</head>
+<body>
+<div  class="stylelogin" >
+    <form action="Yourlogined.html" method="POST" >
+            <input type="text" name="text1" style="height:50px" style="width:1500px" autocomplete="off" placeholder="firstname" required="true" pattern="[A-Z]{3}[0-9]{4}"/>
+            <input type="text" name="text2" style="height:50px" style="width:1500px" autocomplete="off" placeholder="lastname" required="true" pattern="[A-Z]{3}[0-9]{4}"/>
+            <input type="submit" value="submit"/>
+            
+    </form>
+</div>
+<div>
+    <p>LOGIN MUST HAVE CAPITAL LETTERS</p>
+</div>
+<div>
+
+
+
+
+        <fieldset>
+                <legend>Party Times</legend>
+            
+                <label for="name">Parties</label>
+                <select id="name">
+                    <option value="Bar">Bar Louge</option>
+                    <option value="C">Club</option>
+                    <option value="K">Kickback</option>
+                    <option value="p">Pool</option>
+                </select>
+            
+                <label for="start">Start month</label>
+                <input type="month" id="start" name="start"
+                       min="2018-03" value="2018-05" />
+                <span class="validity"></span>
+            
+            </fieldset>
+            
+</div>
+
+
+    
+</body>
+</html>
